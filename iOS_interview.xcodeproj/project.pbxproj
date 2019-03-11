@@ -14,6 +14,8 @@
 		E9D8C5FB223649AC0034F906 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D8C5F9223649AC0034F906 /* LaunchScreen.storyboard */; };
 		E9D8C606223649AC0034F906 /* iOS_interviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D8C605223649AC0034F906 /* iOS_interviewTests.swift */; };
 		E9D8C611223649AC0034F906 /* iOS_interviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D8C610223649AC0034F906 /* iOS_interviewUITests.swift */; };
+		E9D8C62022364C540034F906 /* BasicData_3_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D8C61F22364C540034F906 /* BasicData_3_1.swift */; };
+		E9D8C6222236504A0034F906 /* Basic Data 3_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D8C6212236504A0034F906 /* Basic Data 3_1Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E9D8C60C223649AC0034F906 /* iOS_interviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_interviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D8C610223649AC0034F906 /* iOS_interviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_interviewUITests.swift; sourceTree = "<group>"; };
 		E9D8C612223649AC0034F906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D8C61F22364C540034F906 /* BasicData_3_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicData_3_1.swift; sourceTree = "<group>"; };
+		E9D8C6212236504A0034F906 /* Basic Data 3_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Basic Data 3_1Tests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		E9D8C5EF223649AA0034F906 /* iOS_interview */ = {
 			isa = PBXGroup;
 			children = (
+				E9D8C61E22364BB90034F906 /* Algorithm(算法) */,
 				E9D8C5F0223649AA0034F906 /* AppDelegate.swift */,
 				E9D8C5F2223649AA0034F906 /* ViewController.swift */,
 				E9D8C5F4223649AA0034F906 /* Main.storyboard */,
@@ -112,6 +117,7 @@
 			children = (
 				E9D8C605223649AC0034F906 /* iOS_interviewTests.swift */,
 				E9D8C607223649AC0034F906 /* Info.plist */,
+				E9D8C6212236504A0034F906 /* Basic Data 3_1Tests.swift */,
 			);
 			path = iOS_interviewTests;
 			sourceTree = "<group>";
@@ -123,6 +129,14 @@
 				E9D8C612223649AC0034F906 /* Info.plist */,
 			);
 			path = iOS_interviewUITests;
+			sourceTree = "<group>";
+		};
+		E9D8C61E22364BB90034F906 /* Algorithm(算法) */ = {
+			isa = PBXGroup;
+			children = (
+				E9D8C61F22364C540034F906 /* BasicData_3_1.swift */,
+			);
+			path = "Algorithm(算法)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9D8C62022364C540034F906 /* BasicData_3_1.swift in Sources */,
 				E9D8C5F3223649AA0034F906 /* ViewController.swift in Sources */,
 				E9D8C5F1223649AA0034F906 /* AppDelegate.swift in Sources */,
 			);
@@ -265,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9D8C6222236504A0034F906 /* Basic Data 3_1Tests.swift in Sources */,
 				E9D8C606223649AC0034F906 /* iOS_interviewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
